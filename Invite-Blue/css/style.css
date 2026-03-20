@@ -56,6 +56,9 @@ ul{
 .margin-top-160{
     margin-top: -160px;
 }
+main {
+    overflow: hidden;
+}
 .hero{
     position: relative;
     background-image: url(../img/hero-bg.png);
@@ -449,7 +452,7 @@ margin-bottom: -20px;
     background: transparent;
     padding: 13px 53px;
     border: 1.69px solid #fff;
-    border-radius: 100px 51px 51px 0;
+    border-radius: 50px 51px 51px 0;
     text-decoration: none;
     transition: all .2s ease-in;
 }
