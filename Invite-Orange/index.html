@@ -347,7 +347,9 @@ setInterval(updateTimer, 1000);
     </script>
 
     <script>
-    function createWeddingCalendar({
+
+        document.addEventListener("DOMContentLoaded", () => {
+     function createWeddingCalendar({
     year,
     month,
     markedDay,
@@ -427,5 +429,7 @@ window.addEventListener("resize", () => {
         markedDay: 26
     });
 });
+});
+   
 </script>
     </html>
