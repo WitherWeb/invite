@@ -214,9 +214,10 @@ margin-bottom: -20px;
 .timer__bg{
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50%;
     z-index: -1;
     width: 2058px;
+    transform: translateX(-50%);
 }
 .timer__tittle{
     font-family: var(--third-family);
@@ -549,12 +550,13 @@ margin-bottom: -20px;
 }
 .wrapper{
     position: absolute;
-    right: 0;
     top: 0;
     height: 100%;
     width: 1907px;
     z-index: -1;
     display: flex;
+    left: 50%;
+    transform: translateX(-50%);
     img{
         width: 100%;
     }
