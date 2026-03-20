@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poiret+One&family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="/js/script.js"></script>
+</head>
+<body>
+    <main>
+        <section class="hero">
+            <div class="hero__container">
+                    <div class="hero__text-top"><span class="name-top">Василий</span><span class="name-bottom">Ирина</span></div>
+                <div class="hero__info">
+                    <span class="hero__date">26.02.26</span>
+                    <span class="hero__invite">Приглашаем вас разделить<br>с нами этот особенный день!</span>
+                </div>
+            </div>
+        </section>
+        <div class="time time-hero">
+                <div class="container">
+                    <div class="time__row">
+                        <div class="time__item border">
+                            <span class="time">15:48</span>
+                        </div>
+                        <div class="time__item middle">
+                            <img src="./img/ring.svg" alt="">
+                            <div class="time__item-date">
+                                <span class="day">26</span>
+                                <span class="month">02</span>
+                            </div>
+                        </div>
+                        <div class="time__item border">
+                            <span class="text">Grand<br>Palace</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <section class="timer">
+            <div class="timer__bg">
+                <img src="./img/timer-bg.png" alt="">
+            </div>
+            <div class="container">
+                <h2 class="timer__tittle">До торжества осталось</h2>
+                <div class="timer__row">
+                    <div class="timer__item">
+                        <span class="timer__top">23</span>
+                        <span class="timer_bot">Дней</span>
+                    </div>
+                    <div class="timer__item">
+                        <span class="timer__top">06</span>
+                        <span class="timer_bot">Часов</span>
+                    </div>
+                    <div class="timer__item">
+                        <span class="timer__top">21</span>
+                        <span class="timer_bot">Минут</span>
+                    </div>
+                    <div class="timer__item">
+                        <span class="timer__top">21</span>
+                        <span class="timer_bot">Секунд</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="invite">
+            <div class="container">
+                <h2 class="invite__title">Дорогие гости!</h2>
+                <p class="invite__desс">Мы будем рады разделить с вами этот
+особенный день. Ваша поддержка и&nbsp;любовь значат для нас очень много.<br><br>Приглашаем вас присоединиться к&nbsp;нашему празднику любви, радости и&nbsp;счастья. Ждем вас с нетерпением!</p>
+                <div class="invite__photos">
+                    <div class="invite__item">
+                        <img src="./img/photo-left.png" alt="" srcset="">
+                        <span class="left-name">Ирина</span>
+                    </div>
+                    <div class="invite__item">
+                        <img src="./img/photo-mid.png" alt="" srcset="">
+                    </div>
+                    <div class="invite__item">
+                        <img src="./img/photo-right.png" alt="" srcset="">
+                        <span class="right-name">Василий</span>
+                    </div>
+                </div>  
+            </div>
+            <div class="invite__flowers-right">
+                <img src="./img/flowers-right.svg" alt="">
+            </div>
+        </section>
+        <section class="calendar margin-top-40">
+            <div class="calendar__bg">
+                <img src="./img/candendar-bg.svg" alt="">
+            </div>
+            <div class="container">
+                <div class="calendar__content">
+                    <div class="calendar__app">
+                        <h2 id="month"></h2>
+                        <div class="weekdays">
+                            <span>Пн</span>
+                            <span>Вт</span>
+                            <span>Ср</span>
+                            <span>Чт</span>
+                            <span>Пт</span>
+                            <span>Сб</span>
+                            <span>Вс</span>
+                        </div>
+                        <div id="days" class="days"></div>
+                        <div class="calendar__buttons">
+                            <a class="calendar__buttons-left" href="#">Google</a>
+                            <a class="calendar__buttons-right" href="#">Apple</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="dress margin-top-50">
+            <div class="container">
+                <div class="dress__content">
+                    <div class="dress__programm">
+                        <div class="dress__programm-inner">
+                            <div class="dress__programm-img">
+                                <img src="./img/programm-svg.svg" alt="">
+                            </div>
+                            <div class="dress_programm-rings">
+                                <img src="./img/program-rings.svg" alt="">
+                            </div>
+                            <div class="dress__programm-time">
+                                <div class="dress_programm-item">
+                                    <span>15:00</span>
+                                    <span>Сбор гостей</span>
+                                </div>
+                                <div class="dress_programm-item">
+                                    <span>18:00</span>
+                                    <span>Начало церемонии</span>
+                                </div>
+                                <div class="dress_programm-item">
+                                    <span>23:00</span>
+                                    <span>Завершение вечера</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="dress__tittle">Дресс код</h2>
+                    <p class="dress__desc">Мы будем признательны, если вы&nbsp;поддержите цветовую гамму нашей&nbsp;свадьбы.</p>
+                    <img class="dress__cost" src="./img/outfit.svg" alt="">
+                    <div class="dress__palitra">
+                        <span class="dark-blue"></span>
+                        <span class="blue"></span>
+                        <span class="white-blue"></span>
+                        <span class="gray"></span>
+                        <span class="beige"></span>
+                    </div>
+                    <span class="dress__desc">Можно выбрать любой из этих оттенков</span>
+                </div>
+                <div class="dress__flowers-left">
+                    <picture>
+                        <source srcset="./img/flower-left400px.svg" media="(max-width: 576px)">
+                        <img src="./img/flower-left.svg" alt="">
+                    </picture>                
+                </div>
+            </div>
+        </section>
+        <section class="vishlist">
+            <div class="wrapper">
+                <img src="./img/vishlist-bg.svg" alt="">
+            </div>
+            <div class="container">
+                <div class="vishlist__content">
+                    <div class="dress__rings">
+                        <img src="./img/ring-dress.svg" alt="">
+                    </div>
+                    <h2 class="vishlist__title">Вишлист</h2>
+                    <p class="vishlist__subtitle">Мы составили список вещей, которые сделают нашу семейную жизнь уютнее.<br>Вы можете выбрать подарок из списка и&nbsp;забронировать его, чтобы<br>избежать повторов.</p>
+                    <ul class="vishlist__list">
+                        <li class="vishlist__list-item">
+                            <div class="vishlist__item-info">
+                                <a class="vishlist__link" href="https://www.ozon.ru/product/kofemashina-avtomaticheskaya-garlyn-gloria-g2-dlya-doma-zernovaya-s-kofemolkoy-i-kapuchinatorom-1690972561/?at=WPtNq0mRqcXjzEN9cO2WRl6sMMXMnMI7QB362HmyR97n">Кофемашина</a>
+                                <span class="vishlist__item-text">для вкусного кофе</span>
+                                <div class="line"></div>
+                            </div>
+                            <a class="vishlist__button btn-reset" href="#">Забронировать</a>
+                        </li>
+                        <li class="vishlist__list-item">
+                            <div class="vishlist__item-info">
+                                <a class="vishlist__link" href="https://www.ozon.ru/product/kofemashina-avtomaticheskaya-garlyn-gloria-g2-dlya-doma-zernovaya-s-kofemolkoy-i-kapuchinatorom-1690972561/?at=WPtNq0mRqcXjzEN9cO2WRl6sMMXMnMI7QB362HmyR97n">Кофемашина</a>
+                                <span class="vishlist__item-text">для вкусного кофе</span>
+                                <div class="line"></div>
+                            </div>
+                            <a class="vishlist__button btn-reset" href="#">Забронировать</a>
+                        </li>
+                        <li class="vishlist__list-item">
+                            <div class="vishlist__item-info">
+                                <a class="vishlist__link" href="https://www.ozon.ru/product/kofemashina-avtomaticheskaya-garlyn-gloria-g2-dlya-doma-zernovaya-s-kofemolkoy-i-kapuchinatorom-1690972561/?at=WPtNq0mRqcXjzEN9cO2WRl6sMMXMnMI7QB362HmyR97n">Кофемашина</a>
+                                <span class="vishlist__item-text">для вкусного кофе</span>
+                                <div class="line"></div>
+                            </div>
+                            <a class="vishlist__button btn-reset disabled" href="#">Забронировать</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__content">
+                    <div class="footer__content">
+                        <h2 class="footer__title">Анкета гостя</h2>
+                        <p class="footer__subtitle">
+                            Пожалуйста, заполните форму, чтобы<br>
+                            мы могли учесть все детали и сделать<br>
+                            праздник комфортным для вас.
+                        </p>
+                        <form class="footer__form">
+                            <div class="label-group">
+                                <label>Имя и фамилия *</label>
+                                <input type="text" placeholder="Иван Иванов">
+                            </div>
+                            <div class="label-group">
+                                <label>Номер телефона *</label>
+                                <input type="tel" placeholder="+7 (900) 123-45-67">
+                            </div>
+                            <label class="radio__title">Подтверждение участия *</label>
+                            <div class="radio-group">
+                                <label class="radio">
+                                    <input type="radio" name="visit">
+                                    <span></span>
+                                    Приду
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="visit">
+                                    <span></span>
+                                    Не смогу прийти
+                                </label>
+                            </div>
+                            <button class="btn-reset" type="submit">Отправить ответ</button>
+                        </form>
+                        <div class="footer__map">
+                            <h2 class="footer__map-title">Место проведения </h2>
+                            <div class="map">
+                                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A929c11ffd091f3e4e7ed705cb6ac9123372129a48af2e45bdc4d03ed507cc6cc&amp;source=constructor" height="666" frameborder="0"></iframe>
+                            </div>
+                            <p class="footer__map-text">Ресторан "Grand Palace"<br>ул. Примерная, д. 15, г. Москва</p>
+                            <a class="footer__map-link" href="">Открыть маршрут</a>
+                            <div class="footer__rings">
+                                <img src="./img/footer-ring.svg" alt="">
+                            </div>
+                            <p class="footer__map-subtitle">Будем рады видеть вас на&nbsp;нашем празднике!</p>
+                        </div>
+                        </div>
+                        <div class="footer__logo">
+                            <img src="./img/logo.svg" alt="">
+                        </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const monthElement = document.getElementById("month");
+        const daysElement = document.getElementById("days");
+        const year = 2026;
+        const month = 1; // февраль (0 = январь)
+        const weddingDay = 26;
+        const months = [
+        "Январь","Февраль","Март","Апрель","Май","Июнь",
+        "Июль","Август","Сентябрь","Октябрь","Ноябрь","Декабрь"
+        ];
+        monthElement.textContent = `${months[month]} ${year}`;
+        const firstDay = new Date(year, month, 1).getDay();
+        const daysInMonth = new Date(year, month + 1, 0).getDate();
+        let start = firstDay === 0 ? 6 : firstDay - 1;
+        for(let i = 0; i < start; i++){
+            daysElement.innerHTML += `<div></div>`;
+        }
+        for(let i = 1; i <= daysInMonth; i++){
+            if(i === weddingDay){
+                daysElement.innerHTML += `<div class="active">${i}</div>`;
+            }else{
+                daysElement.innerHTML += `<div>${i}</div>`;
+            }
+        }
+    });
+</script>
+    <script>
+        const weddingDate = new Date(2026, 6, 15, 12, 0, 0); // поменяй дату
+
+        const timerItems = document.querySelectorAll('.timer__item');
+
+        function updateTimer() {
+            const now = new Date();
+            const diff = weddingDate - now;
+
+            if (diff <= 0) {
+                timerItems.forEach(item => {
+                    item.querySelector('.timer__top').textContent = '00';
+                });
+                return;
+            }
+
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+            const minutes = Math.floor((diff / (1000 * 60)) % 60);
+            const seconds = Math.floor((diff / 1000) % 60);
+
+            const values = [days, hours, minutes, seconds];
+
+            timerItems.forEach((item, index) => {
+                const value = String(values[index]).padStart(2, '0');
+                item.querySelector('.timer__top').textContent = value;
+            });
+        }
+
+        updateTimer();
+        setInterval(updateTimer, 1000);
+    </script>
+</html>

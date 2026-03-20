@@ -1,0 +1,431 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main class="main">
+            <section class="hero">
+                <div class="hero__bg">
+                    <img src="./img/hero-bg.png" alt="">
+                    <img class="hero__bg-top" src="./img/hero-bg-top.svg" alt="">
+                </div>
+                <div class="container">
+                    <div class="hero__head">
+                        <h1 class="hero__title">Приглашаем вас разделить с нами<span class="visible-mobile">этот</span></h1>
+                        <div class="hero__subhead"><div class="hidden-mobile">этот</div><span>особенный день</span>
+                        </div>
+                    </div>
+                    <span class="hero__subtitle">
+                        <span class="hero__subtitle-item">(</span>
+                        26.02.2026
+                        <span class="hero__subtitle-item">)</span>
+                    </span>
+                </div>
+                <div class="hero__photos">
+                        <div class="hero__photos-left">
+                            <span>Василий</span>
+                            <img src="./img/photo-left.png" alt="Василий">
+                        </div>
+                        <div class="hero__photos-right">
+                            <span>Ирина</span>
+                            <img src="./img/photo-right.png" alt="Ирина">
+                        </div>
+                    </div>
+            </section>
+            <section class="wedding">
+                
+                <div class="container">
+                    <div class="wedding__content">
+                        <div class="wedding__clock">
+                            <img src="./img/wedding-bg.png" alt="">
+                        </div>
+                        <div class="wedding__place">
+                            <div class="wedding__content-item">
+                                <span class="wedding__subtitle">МЕСТО МЕРОПРИЯТИЯ</span>
+                                <h2 class="wedding__title">Ресторан<br>«Grand Palace»</h2>
+                            </div>
+                            <div class="wedding__content-item">
+                                <span class="wedding__subtitle">ДАТА</span>
+                                <h2 class="wedding__title">ФЕВРАЛЬ,<span class="bracket">(</span>26<span class="bracket">)</span><br>2026</h2>
+                            </div>
+                            <div class="wedding__content-item">
+                                <span class="wedding__subtitle">ВРЕМЯ</span>
+                                <h2 class="wedding__title">03:38</h2>
+                            </div>
+                        </div>
+                        <div class="wedding__timer">
+                            <div class="wedding__content-timer">
+                                <h2 class="wedding__title">ДО СВАДЬБЫ</h2>
+                                <span class="wedding__timer-subtitle">осталось</span>
+                            </div>
+                            <div class="wedding__timer-row">
+                                <div class="wedding__timer-item">
+                                    <span class="wedding__timer-top" id="days">22</span>
+                                    <span class="wedding__timer-bot">Дней</span>
+                                </div>
+                                <div class="wedding__timer-item">
+                                    <span class="wedding__timer-top" id="hours">01</span>
+                                    <span class="wedding__timer-bot">Часов</span>
+                                </div>
+                                <div class="wedding__timer-item">
+                                    <span class="wedding__timer-top" id="minutes">37</span>
+                                    <span class="wedding__timer-bot">Минут</span>
+                                </div>
+                                <div class="wedding__timer-item">
+                                    <span class="wedding__timer-top" id="seconds">42</span>
+                                    <span class="wedding__timer-bot">Секунд</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wedding__buttons">
+                            <button class="wedding__buttons-left btn-reset">Я ПРИДУ</button>
+                            <button class="wedding__buttons-right btn-reset">МАРШРУТ</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="invite">
+                <div class="container">
+                    <div class="invite__top">
+                        <h2 class="invite__title">ДОРОГИЕ</h2>
+                        <span class="invite__title-subtitle">гости!</span>
+                    </div>
+                    <div class="invite__bot">
+                        <p class="invite__bot-text">Приглашаем вас присоединиться к&nbsp;нашему празднику любви, радости и&nbsp;счастья. Ждем вас с нетерпением!</p>
+                        <p class="invite__bot-text">Мы будем рады разделить с вами этот особенный день. Ваша поддержка и&nbsp;любовь значат для нас очень много.</p>
+                    </div>
+                </div>
+                <div class="invite__img">
+                    <div class="container">
+                        <img src="./img/invite-img.png" alt="">
+                    </div>            
+                </div>        
+            </section>
+            <section class="calendar">
+                <div class="container">
+                    <div class="calendar__content">
+                        <div class="calendar__title">
+                            <h2 class="calendar__title-subhead">ФЕВРАЛЬ,<span class="calendar__title-info">2026</span></h2>
+                        </div>
+                        <div class="calendar__item">
+                            <div class="wedding-calendar" id="weddingCalendar">
+    <div class="wedding-calendar__paper">
+        <div class="wedding-calendar__weekdays" id="calendarWeekdays"></div>
+        <div class="wedding-calendar__grid" id="calendarGrid"></div>
+
+        <div class="wedding-calendar__heart" id="calendarHeart">
+            <img src="./img/calendar-heart.png" alt="">
+        </div>
+    </div>
+</div>
+                        </div>
+                        <div class="calendar__buttons">
+                            <a class="calendar__buttons-left btn-reset" href="">GOOGLE</a>
+                            <a class="calendar__buttons-right btn-reset" href="">APPLE</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="dress">
+                <picture class="dress__clothe">
+                    <source srcset="./img/clothe-400px.svg" media="(max-width: 1024px)">
+                        <img src="./img/clothe.svg" alt="">
+                </picture>
+                <div class="dress__content">
+                    <div class="container">
+                        <h2 class="dress__title">ДРЕСС-КОД</h2>
+                        <div class="dress__subtitle">
+                            <p class="dress__subtitle-top">Мы будем признательны, если вы поддержите цветовую гамму нашей свадьбы.</p>
+                            <P class="dress__subtitle-bot">Можно выбрать любой из этих оттенков.</P>
+                        </div>
+                        <div class="dress__palitra">
+                            <span class="pink"></span>
+                            <span class="dark-red"></span>
+                            <span class="brown"></span>
+                            <span class="lavender"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="programm">
+                <div class="programm__bg">
+                    <img src="./img/programm-bg-right.svg" alt="">
+                </div>
+                <div class="container">
+                    <div class="programm__content">
+                        <div class="programm__title">
+                            <h2 class="programm__subhead">программа</h2><span class="programm__subhead-info">дня</span>
+                        </div>
+                        <div class="programm__graph">
+                        <div class="program__graph-item">
+                            <span class="programm__graph-top">12:00</span>
+                            <span class="programm__graph-bot">сбор гостей в загсе</span>
+                        </div>
+                        <div class="program__graph-item">
+                            <span class="programm__graph-top">13:00</span>
+                            <span class="programm__graph-bot">Церемония бракосочетания</span>
+                        </div>
+                        <div class="program__graph-item">
+                            <span class="programm__graph-top">15:00</span>
+                            <span class="programm__graph-bot">Праздничный обед<br>(банкет)</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <section class="vishlist">
+                <div class="container">
+                    <h2 class="vishlist__title">Вишлист</h2>
+                    <p class="vishlist__desc">Мы составили список вещей, которые сделают нашу&nbsp;семейную жизнь уютнее. Вы можете выбрать подарок из списка и забронировать его, чтобы избежать&nbsp;повторов.</p>
+                </div>
+                <ul class="vishlist__list">
+                        <li class="vishlist__list-item">
+                            <div class="vishlist__item-info">
+                                <a class="vishlist__link border" href="#">СЕРВИЗ</a>
+                                <span class="vishlist__item-text">Самый лучший</span>
+                            </div>
+                            <a class="vishlist__button vishlist__button-orange btn-reset" href="#">Забронировать</a>
+                        </li>
+                        <li class="vishlist__list-item">
+                            <div class="vishlist__item-info">
+                                <a class="vishlist__link" href="#">Кофемашина</a>
+                            </div>
+                            <a class="vishlist__button btn-reset" href="#" disabled>Забронировано</a>
+                        </li>
+                        <li class="vishlist__list-item">
+                            <div class="vishlist__item-info">
+                                <a class="vishlist__link" href="">какой-то большой<br>подарок</a>
+                            </div>
+                            <a class="vishlist__button btn-reset" href="#" disabled>Забронировано</a>
+                        </li>
+                    </ul>
+            </section>
+            <section class="form">
+                <div class="container">
+                    <div class="form">
+                        <div class="form__header">
+                            <h2 class="form__title">АНКЕТА<span class="form__title-info">гостя</span></h2>
+                        </div>
+                            <p class="form__desc">Пожалуйста, заполните форму, чтобы мы могли&nbsp;учесть все детали и сделать праздник комфортным для вас.</p>
+                        <div class="form__container">
+                            <label class="form__field">
+                                <span class="form__label">Укажите ваше имя и фамилию*</span>
+                                <input class="form__input" type="text" placeholder="Мария Александрова">
+                            </label>
+                            <label class="form__field">
+                                <span class="form__label">Номер телефона*</span>
+                                <input class="form__input" type="tel" placeholder="+7 (900) 123-45-67">
+                            </label>
+                            <div class="form__field">
+                                <span class="form__label">Подтверждение участия*</span>
+                                <label class="form__radio">
+                                    <div class="form__radio-check">
+                                        <input type="radio" name="attendance" class="form__radio-input">
+                                        <span class="check"></span>
+                                    </div>
+                                    <span class="form__radio-text">Приду</span>
+                                </label>
+                                <label class="form__radio">
+                                    <div class="form__radio-check">
+                                        <input type="radio" name="attendance" class="form__radio-input">
+                                        <span class="check"></span>
+                                    </div>                                    <span class="form__radio-text">Не смогу прийти</span>
+                                </label>
+                            </div>
+                            <div class="form__field">
+                                <span class="form__label">Предпочтения по напиткам</span>
+                                <label class="form__checkbox">
+                                    <input type="checkbox" class="form__checkbox-input">
+                                    <span class="form__checkbox-text">Шампанское</span>
+                                </label>
+                                <label class="form__checkbox">
+                                    <input type="checkbox" class="form__checkbox-input">
+                                    <span class="form__checkbox-text">Белое вино</span>
+                                </label>
+                                <label class="form__checkbox">
+                                    <input type="checkbox" class="form__checkbox-input">
+                                    <span class="form__checkbox-text">Красное вино</span>
+                                </label>
+                                <label class="form__checkbox">
+                                    <input type="checkbox" class="form__checkbox-input">
+                                    <span class="form__checkbox-text">Коньяк / виски</span>
+                                </label>
+                                <label class="form__checkbox">
+                                    <input type="checkbox" class="form__checkbox-input">
+                                    <span class="form__checkbox-text">Безалкогольные напитки</span>
+                                </label>
+                                <input class="form__input form__input--text" type="text" placeholder="Свой ответ">
+                            </div>
+                            <button class="form__button">ОТПРАВИТЬ ОТВЕТ</button>
+                    </div>
+                    <div class="form__img-bot">
+                        <img src="./img/form-bot.png" alt="">
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <section class="location">
+                <div class="location__bg">
+                    <img src="./img/location-bg.png" alt="">
+                </div>
+                <div class="container">
+                    <div class="location__content">
+                        <div class="location___head">
+                            <h2 class="location__title">МЕСТО</h2>
+                            <span class="location__title-subtitle">проведения</span>
+                        </div>
+                        <div class="map">
+                            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A929c11ffd091f3e4e7ed705cb6ac9123372129a48af2e45bdc4d03ed507cc6cc&amp;source=constructor" height="267" width="100%" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="location__place">
+                        <span class="location__place-top">место мероприятия</span>
+                        <span class="location__place-text">Ресторан<br>«Grand Palace»</span>
+                    </div>
+                    <div class="location__info">
+                        <span class="location__place-desc">ул. Примерная, д. 15, г. Москва</span>
+                    </div>
+                    <a class="location__button btn-reset" href="#">открыть маршрут</a>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="footer__head">
+                    <div class="footer__bg">
+                        <img src="./img/footer-bg.svg" alt="">
+                    </div>
+                    <div class="footer__text">
+                        <h2 class="footer__head-title">будем рады видеть<br>вас на нашем</h2>
+                        <span class="footer__head-desc">празднике</span>
+                    </div>
+                    <div class="footer__names">
+                        <span>Василий + Ирина</span>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </body>
+    
+    <script>
+        // Укажи дату свадьбы (ГОД, МЕСЯЦ-1, ДЕНЬ, ЧАСЫ, МИНУТЫ)
+const weddingDate = new Date(2026, 6, 15, 12, 0, 0); // пример: 15 июля 2026
+
+function updateTimer() {
+    const now = new Date();
+    const diff = weddingDate - now;
+
+    if (diff <= 0) {
+        document.getElementById('days').textContent = '00';
+        document.getElementById('hours').textContent = '00';
+        document.getElementById('minutes').textContent = '00';
+        document.getElementById('seconds').textContent = '00';
+        return;
+    }
+
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+    const minutes = Math.floor((diff / (1000 * 60)) % 60);
+    const seconds = Math.floor((diff / 1000) % 60);
+
+    document.getElementById('days').textContent = String(days).padStart(2, '0');
+    document.getElementById('hours').textContent = String(hours).padStart(2, '0');
+    document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
+    document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
+}
+
+// запуск сразу
+updateTimer();
+
+// обновление каждую секунду
+setInterval(updateTimer, 1000);
+    </script>
+
+    <script>
+    function createWeddingCalendar({
+    year,
+    month,
+    markedDay,
+    containerId = "calendarGrid",
+    weekdaysId = "calendarWeekdays",
+    heartId = "calendarHeart"
+}) {
+    const grid = document.getElementById(containerId);
+    const weekdaysRow = document.getElementById(weekdaysId);
+    const heart = document.getElementById(heartId);
+
+    const weekdays = ["пн", "вт", "ср", "чт", "пт", "сб", "вс"];
+
+    weekdaysRow.innerHTML = "";
+    grid.innerHTML = "";
+
+    weekdays.forEach(day => {
+        const el = document.createElement("div");
+        el.textContent = day;
+        weekdaysRow.appendChild(el);
+    });
+
+    const firstDate = new Date(year, month - 1, 1);
+    const lastDate = new Date(year, month, 0);
+    const daysInMonth = lastDate.getDate();
+
+    let firstDay = firstDate.getDay();
+    firstDay = firstDay === 0 ? 7 : firstDay; // вс = 7
+
+    for (let i = 1; i < firstDay; i++) {
+        const empty = document.createElement("div");
+        empty.className = "wedding-calendar__day wedding-calendar__day--empty";
+        empty.textContent = "";
+        grid.appendChild(empty);
+    }
+
+    let markedElement = null;
+
+    for (let day = 1; day <= daysInMonth; day++) {
+        const cell = document.createElement("div");
+        cell.className = "wedding-calendar__day";
+        cell.textContent = day;
+
+        if (day === markedDay) {
+            cell.classList.add("wedding-calendar__day--marked");
+            markedElement = cell;
+        }
+
+        grid.appendChild(cell);
+    }
+
+    requestAnimationFrame(() => {
+        if (!markedElement) return;
+
+        const paper = grid.closest(".wedding-calendar__paper");
+        const markedRect = markedElement.getBoundingClientRect();
+        const paperRect = paper.getBoundingClientRect();
+
+        const x = markedRect.left - paperRect.left + markedRect.width / 2;
+        const y = markedRect.top - paperRect.top + markedRect.height / 2 + 6;
+
+        heart.style.left = `${x}px`;
+        heart.style.top = `${y}px`;
+    });
+}
+
+createWeddingCalendar({
+    year: 2026,
+    month: 2,
+    markedDay: 26
+});
+
+window.addEventListener("resize", () => {
+    createWeddingCalendar({
+        year: 2026,
+        month: 2,
+        markedDay: 26
+    });
+});
+</script>
+    </html>
